@@ -34,7 +34,7 @@ namespace Test
         }
 
         [Fact]
-        public void RectangleArea_checkException()
+        public void RectangleArea_checkException() // комментарий для пуллреквеста в репу
         {
             GeometryShape.Rectangle rectangle = new GeometryShape.Rectangle();
 
