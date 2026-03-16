@@ -30,11 +30,11 @@ namespace Test
 
             double res = rectangle.Area();
 
-            Assert.Equal(res, 20);
+            Assert.Equal(20, res);
         }
 
         [Fact]
-        public void RectangleArea_checkException()
+        public void RectangleArea_checkException() // комментарий для пуллреквеста в репу
         {
             GeometryShape.Rectangle rectangle = new GeometryShape.Rectangle();
 
@@ -56,7 +56,7 @@ namespace Test
 
             double res = rectangle.Perimeter();
 
-            Assert.Equal(res, 24);
+            Assert.Equal(24, res);
         }
 
         [Fact]
