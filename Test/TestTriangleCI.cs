@@ -11,6 +11,13 @@ namespace Test
     public class TestTriangleCI
     {
         [Fact]
+        public void CreateTriangle()
+        {
+            GeometryShape.Triangle tri = new GeometryShape.Triangle();
+            Assert.NotNull(tri);
+        }
+
+        [Fact]
         public void TriangleArea_Check()
         {
             Triangle tri = new Triangle();
